@@ -1,0 +1,103 @@
+body {
+	border: 20px solid #D0D0D0;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+	color: white;
+	height: 95vh;
+	width: 97%;
+}
+
+nav {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	margin-top: 40%;
+}
+
+input {
+	height: 25%;
+	width: 25%;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+div {
+	margin: 10% 0 0 5%;
+}
+
+.first-btn	{
+	margin: 0;
+	height: 5%;
+	width: 25%;
+}
+
+.left-side {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+}
+
+.first-box {
+	background-color: #35BC7A;
+	height: 33.33%;
+	text-align: left;
+	width: 66.66%;
+}
+
+.second-box {
+	background-color: #FF9E00;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.third-box {
+	background-color: #1E8BC4;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.fourth-box {
+	background-color: #F15A49;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.fith-box {
+	background-color: #35BC7A;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.sixth-box {
+	background-color: #F86925;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.seventh-box {
+	background-color: #1E8BC4;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.eighth-box {
+	background-color: #F86925;
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.right-side {
+	height: 100%;
+	width: 40%;
+}
+
+.main-image {
+	height: 100%;
+	width: 100%;
+}
