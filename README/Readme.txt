@@ -1,0 +1,1 @@
+For this project I took the parameters of a static comp and restyled them.  The site was also made to be responsive and able to be viewed on a mobile screen.
