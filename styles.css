@@ -1,3 +1,11 @@
+/*Resposive 
+add icons
+change color scheme
+onts / font weight
+edit image
+refactor divs out
+add fake image buttons / nav*/
+
 body {
 	border: 20px solid #D0D0D0;
 	color: white;
@@ -17,24 +25,32 @@ nav {
 }
 
 div {
-	margin: 5% 10% 0 0;
+	margin: 5% 5% 0 0;
 }
 
 h1 {
 	font-size: 1.2em;
-	margin: 0 0 8% 0;
+	margin: 0 0 3% 0;
+}
+
+p {
+	font-size: .8em;
+	font-weight: 300;
+	margin: 0 0 3% 0;
 }
 
 a {
-	background: no-repeat url("http://loremflickr.com/320/240");
   	border: 0;
   	height: 25%;
   	width: 25%;
 }
 
 h3 {
-	display: flex;;
+	display: flex;
 	flex-wrap: wrap;
+	font-weight: 300;
+	margin: 3% 0 0 0;
+	
 }
 
 .left-side {
@@ -44,56 +60,59 @@ h3 {
 }
 
 .first-box {
-	background-color: #35BC7A;
+	background-color: #7C9885;
 	flex-direction: row;
 	height: 33.33%;
 	width: 66.66%;
 }
 
-.first-btn {
-	height: 15%;
-	margin: 0 10% 0 0;
-	width: 15%;
+.first-btn{
+	border: 2px solid white;
+    display: inline-block;
+    height: 40px;
+    margin: 8px 8px 0 0;
+    width: 100px;
+
 }
 
 .second-box {
-	background-color: #FF9E00;
+	background-color: #63E2C6;
 	height: 33.33%;
 	width: 33.33%;
 }
 
 .third-box {
-	background-color: #1E8BC4;
+	background-color: #5ABCB9;
 	height: 33.33%;
 	width: 33.33%;
 }
 
 .fourth-box {
-	background-color: #F15A49;
+	background-color: #6EF9F5;
 	height: 33.33%;
 	width: 33.33%;
 }
 
-.fith-box {
-	background-color: #35BC7A;
+.fifth-box {
+	background-color: #26532B;
 	height: 33.33%;
 	width: 33.33%;
 }
 
 .sixth-box {
-	background-color: #F86925;
+	background-color: #399E5A;
 	height: 33.33%;
 	width: 33.33%;
 }
 
 .seventh-box {
-	background-color: #1E8BC4;
+	background-color: #5ABCB9;
 	height: 33.33%;
 	width: 33.33%;
 }
 
 .eighth-box {
-	background-color: #F86925;
+	background-color: #399E5A;
 	height: 33.33%;
 	width: 33.33%;
 }
@@ -108,10 +127,85 @@ h3 {
 	width: 100%;
 }
 
-@media (max-width: 900px) {
+
+.second-box a {
+	background: url("images/012-bowl.svg") no-repeat;
+	background-size: cover; 
+}
+
+.third-box a {
+	background: url("images/dog.svg") no-repeat;
+	background-size: cover;
+	height: 29%; 
+}
+
+.fourth-box a {
+	background: url("images/004-cross.svg") no-repeat;
+	background-size: cover;
+	height: 31%;
+}
+
+.fifth-box a {
+	background: url("images/011-brush.svg") no-repeat;
+	background-size: cover;
+	height: 31%;
+}
+
+.sixth-box a {
+	background: url("images/001-animal-2.svg") no-repeat;
+	background-size: cover;
+	height: 31%;
+}
+
+.seventh-box a {
+	background: url("images/013-cloud-and-lightnings.svg") no-repeat;
+	background-size: cover;
+	height: 30%;
+}
+
+.eighth-box a {
+	background: url("images/002-animal-1.svg") no-repeat;
+	background-size: cover;
+	height: 30%;
+	width: 25%;
+}
+
+.call {
+    background: url(images/001-call-answer.svg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 38%;
+    margin: 10px 0 0 10px;
+    width: 15%;
+}
+
+.checklist {
+	background: url("images/002-checklist.svg") no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 38%;
+    margin: 10px 0 0 10px;
+    width: 15%;
+}
+
+.call p {
+   color: white;
+   margin: 3px 0 0 22px;
+}
+
+.checklist p {
+	color: white;
+	margin: 3px 0 0 22px ;
+}
+
+@media (max-width: 600px) {
 
 	body {
-		flex-direction: 
-		column
+		flex-direction: column;
 	}
-}
+
+	main-image {
+		height:45vh; 
+	}
+
+/*Icons via https://www.flaticon.com*/
